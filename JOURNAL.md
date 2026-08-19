@@ -38,3 +38,12 @@ Finished the PCB! I had to fix some disconnected items. I then added a ground pl
 Next steps involve designing the case and writing some basic firmware!
 
 Hours taken: **2**
+
+
+# August 19th:
+
+![cad case](https://cdn.hackclub.com/01a019f1-7d12-7fc0-bc2f-562b8ca8c8d5/image.png)
+
+I imported the PCB into KiCad. I started of with the case. After making the plate, I then used the assembly and edit in place to design both the bottom and top. I also included a slot for the USBC of the devboard.
+
+Hours taken: **3**

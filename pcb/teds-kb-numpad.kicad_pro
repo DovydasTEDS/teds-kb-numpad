@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "teds-kb-16.kicad_pro",
+    "filename": "teds-kb-numpad.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,12 +643,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "teds-kb-16.kicad_sch",
-        "name": "Root",
+        "filename": "teds-kb-numpad.kicad_sch",
+        "name": "teds-kb-numpad",
         "uuid": "e9a6a596-66e7-4364-8af3-591abb02694e"
       }
     ],
-    "used_designators": "MX1-20,U1-3,eadwad1,#PWR1-18,D1-38,SW1,R1,S1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
