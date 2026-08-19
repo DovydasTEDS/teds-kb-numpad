@@ -1,23 +1,38 @@
-[Journal](/JOURNAL.md)
+# teds-kb-numpad
 
-BOM:  
+a numpad / 17-key keypad with per-key rgb lighting, qmk firmware and soon to be added via and possibly signalrgb support!
 
-|Item            |Link                                                 |LCSC Part No.|Price|Units|Total Price|Running Total|FIELD8|Notes        |FIELD10|Specific No. Neded|
-|----------------|-----------------------------------------------------|-------------|-----|-----|-----------|-------------|------|-------------|-------|------------------|
-|PCB             |                                                     |             |12   |1    |12         |12           |      |             |       |1                 |
-|AliExpress      |                                                     |             |     |     |           |12           |      |             |       |                  |
-|Xiao RP2040     |https://www.aliexpress.com/item/1005008233414789.html|             |8.61 |1    |8.61       |20.61        |      |             |       |1                 |
-|Hotswap Socket  |https://www.aliexpress.com/item/1005007232040760.html|             |2.11 |1    |2.11       |22.72        |      |             |       |17                |
-|Switches        |https://www.aliexpress.com/item/1005005930656897.html|             |15.41|1    |15.41      |38.13        |      |             |       |17                |
-|Stabilisers     |https://www.aliexpress.com/item/1005006528731543.html|             |0    |1    |0          |38.13        |      |Already Owned|       |3                 |
-|Keycaps         |https://www.aliexpress.com/item/1005009162201589.html|             |10.34|1    |10.34      |48.47        |      |             |       |17                |
-|M3 8m Screw     |https://www.aliexpress.com/item/1005007264845313.html|             |0.81 |1    |0.81       |49.28        |      |             |       |12                |
-|M3 Heatset OD4.2|https://www.aliexpress.com/item/1005003582355741.html|             |0    |1    |0          |49.28        |      |Already Owned|       |12                |
-|LCSC            |                                                     |             |     |     |0          |49.28        |      |             |       |                  |
-|SK6812MINI-E    |Already Owned                                        |C5149201     |0    |17   |0          |49.28        |      |             |       |17                |
-|SN74LV1T125DBVR |Already Owned                                        |C473338      |0    |1    |0          |49.28        |      |             |       |1                 |
-|1N4148W         |Already Owned                                        |C917030      |0    |17   |0          |49.28        |      |             |       |17                |
-|0805W8F3300T5E  |330 Resistor (Already Owned)                         |C17630       |0    |1    |0          |49.28        |      |             |       |1                 |
-|                |                                                     |             |     |     |0          |49.28        |      |             |       |                  |
-|Case            |Self 3d Printed                                      |             |0    |1    |0          |49.28        |      |             |       |1                 |
-|                |                                                     |             |     |     |Total:     |49.28        |      |             |       |                  |
+![teds-kb-numpad](https://cdn.hackclub.com/01a01a79-fa8b-7a42-a056-b96c9a8532ab/image.png)
+
+## links
+[Journal](/JOURNAL.md) [Bill of Materials (markdown)](/bom.md)
+
+## custom cool features
+- custom 3d printed case
+- cool looking pcb
+- hotswap switch sockets
+- per-key sk6812 mini-e lighting
+- qmk firmware
+- via (wip)
+- signalrgb (wip)
+
+## pcb design
+
+made completely in kicad, with the TEDS logo and some small text stating the name.
+
+<p float="left">
+  <img src="https://cdn.hackclub.com/01a01a73-3171-7124-912c-ac622e468a04/image.png" width="33%" />
+  <img src="https://cdn.hackclub.com/01a01a73-34ae-7eae-8f78-14030d376e6a/image.png" width="33%" />
+  <img src="https://cdn.hackclub.com/01a01a73-38e3-770d-bd8f-29a774fd011c/image.png" width="33%" />
+</p>
+
+## case design
+
+i decided to make the case in 3 parts - the plate, the bottom, and then the top. 
+it could be made with just the bottom and plate, but the top helps hide the screws and make it look nice.
+
+<p float="left">
+  <img src="https://cdn.hackclub.com/01a01a77-b49c-7d65-80f3-422e7d322751/file-a1a16a083cc919d8acc7d3f4a089654e.png" width="33%" />
+  <img src="https://cdn.hackclub.com/01a01a77-b160-7daf-a9a1-a2e657288052/image.png" width="33%" />
+  <img src="https://cdn.hackclub.com/01a01a77-aeba-7d0f-861d-59d828f5d475/file-53a537eec003327d98e97684efad4917.png" width="33%" />
+</p>
